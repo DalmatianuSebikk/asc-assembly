@@ -4,6 +4,8 @@ Componente Ass:
     - flaguri: "indicatori" care se activeaza in functie de rezultat
     - adresarea memoriei: daca e nevoie sa lucram cu mai multe date trebuie sa ne referim
     la o anumita adresa de memorie
+    - stiva programului: structura LIFO
+    - intreruperi
 -----------------------------------------------------------------
 
 tipuri de date in ass:
