@@ -1,0 +1,3 @@
+1. as --32 exemplu.asm -o exemplu.o
+2. ld -m elf_i386 exemplu.o -o exemplu
+3. ./exemplu
