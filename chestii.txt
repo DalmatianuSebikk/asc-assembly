@@ -8,6 +8,32 @@ Componente Ass:
     - intreruperi
 -----------------------------------------------------------------
 
+REGISTRI:
+    OBS:
+        AH  -   8 BITS (high)
+        AL  -   8 BITS (low)
+        AX  -   16 BITS
+        EAX -   32 BITS
+        RAX -   64 BITS
+
+REGISTRI GENERALI:
+    - eax   - acumulator (op aritmetice)
+    - ebx   - base index (pointeri)
+    - ecx   - counter (structuri repetitive)
+    - edx   - data  (op aritmetice si I/O)
+    - esi   - source index (pointer la sursa in op stream)
+    - edi   - destination index (pointer la destinatie in op stream)
+    - esp   - stack pointer (pointer la vf stivei)
+    - ebp   - base pointer (pointer la baza stivei)
+
+REGISTRI PENTRU FLAGURI:
+    - cf    - daca dupa ultima operatie a avut loc transport
+    - pf    - daca numarul de biti de 1 este par 
+    - zf    - daca rez ultimei operatii este 0
+    - sf    - daca rez ultimei operatii este negativ
+    - of    - daca rez ultimei operatii produce un overflow
+-----------------------------------------------------------------
+
 tipuri de date in ass:
     byte    - ocupa 1 byte
     single  - 4 bytes, folosit pt nr fractionare
