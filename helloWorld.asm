@@ -7,7 +7,7 @@ _start:
     # pentru a afisa Hello World avem nevoie de 2 functii (care au un cod de functie):
     #   - SYSTEM CALL (pentru intreruperea rularii programului) 
     #   - PRINT 
-    # si 3 argumente, %eax, %ebx, %ecx
+    # si 3 argumente, %eax, %ebx, %ecx. %edx va tine minte dimensiunea sirului
     mov $4, %eax
     mov $1, %ebx
     mov $helloWorld, %ecx
