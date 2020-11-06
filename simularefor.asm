@@ -12,7 +12,7 @@ etloop: # INCEPEREA SIMULARII FORULUI
     cmp n, %ecx
     je etexit # daca s egali, pa
     
-    add %ecx, s # s += %ecx
+    add %ecx, s # s += %ecx, poti sa consideri forul o suma gauss pana la n - 1
     add $1, %ecx # ecx += 1
 
     jmp etloop
