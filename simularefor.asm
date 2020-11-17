@@ -9,6 +9,7 @@ _start:
     mov $0, %ecx # registrul pentru contor
 
 etloop: # INCEPEREA SIMULARII FORULUI
+    
     cmp n, %ecx
     je etexit # daca s egali, pa
     
